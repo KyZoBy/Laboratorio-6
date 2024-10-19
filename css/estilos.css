@@ -1,0 +1,219 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  white;
+    
+}
+
+
+header {
+    color: black;
+    padding: 30px 15px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+/*color del navbar y los pixeles*/
+.navbar {
+    width: px;
+    height: 50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: green;
+}
+
+
+.contenido {
+    padding: 10px; 
+    margin: 0;
+    width: 1600px; 
+    background-color: white;
+
+}
+
+/*rayita antes de la lista*/
+ul {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    list-style: none;
+    display: flex;
+}
+
+/*lista navbar */
+li {
+    float: left;
+    display: block;
+}
+
+/*palabras y el control de los links del navbar */
+.navbar a {
+    padding: 5px 150px; /*espaciado alrededor del teto*/ 
+    color: black;
+    font-size: 20px;
+    margin: 0 10px; /*espaciado entre lineas */
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; 
+    line-height: 50px;  /* bajo el texto con esto*/
+    /**/
+    transition: background-color 0.3s;
+}
+
+/*rango de animacion */
+.navbar a:hover {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+
+
+/*---------------------------------ENCABEZADO Y CUERPO DE LOS POST ----------------------*/
+
+/*post totalest en general con colores y posciciones */
+.post {
+    background-color: greenyellow;
+    padding: 0  50px; /*rellena los lados verdes */
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    /*bordes*/
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+#post-uno {
+    
+    .subtitulo {
+        position: relative;
+        left: 700px;
+        top: -40px;
+    }
+}
+
+
+.post-body {
+    background-color: white;
+    
+}
+
+/*--------------body y control del primero-------------------*/
+
+#post-uno {
+
+    .post-header {
+        float: left; 
+        margin-left: 30px; /*mueve el cuerpo del titulo y la imagen a la derecha*/
+    }
+    height: 450px;
+
+    .post-body {
+        height: 410px; /*altura */
+        border-radius: 20px; /*bordesitos lindos*/
+        margin-right: 10px; /* mueve el cuerpo del texto a la izquierda */
+    }
+}
+
+
+
+#post-dos {
+    
+    position: relative;
+    top: 20px;
+
+    .post-header {
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        text-align: center;
+        width: 750px;
+        height: 500px; /* lo blanquito del titulo post dos*/
+        right: -350px;
+        margin-bottom: 50px;
+
+    }
+
+
+    /*------------------------------cuerpo del segundo----------------------------*/
+
+
+    .post-body {
+        margin-bottom:  40px; /*espacito de la cajota de abajo*/
+        border-radius: 20px;   
+        height: 600px;
+
+        p {
+            margin-right: 950px;
+            margin-left: 40px;
+            position: relative;
+            top: 50px;
+            line-height: 2.0;
+            
+        }  
+        
+        tr {
+            float: right;
+            margin-right: 20px;
+            position: relative;
+            top: -250px;
+            margin-bottom: 20px;
+            
+        }  
+
+
+
+    }
+
+}
+
+/* ------------------------el footer para no perderme  :)-----------------------*/
+footer {
+    background-color: white; 
+    color: black; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+/* Estilo para el encabezado en el footer */
+footer h4 {
+    margin-bottom: 15px; 
+    font-size: 18px; 
+    font-style: italic;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+}
+
+
+/* Estilo para los inputs de texto y email */
+input[type="text"],
+input[type="email"] {
+    width: 100%;   /* Ancho completo */
+    padding: 8px;   /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+    border: 1px solid   black; /*bordesito negro de los inpput*/
+    border-radius: 3px; 
+}
+
+/* Estilo para el botón de envío */
+.submitbutton {
+    background-color: green; 
+    color: white; 
+    border: none; 
+    padding: 10px; /*anchura (se me olvida la traduccion)*/
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-size: 15px; /* Tamaño de fuente */
+}
